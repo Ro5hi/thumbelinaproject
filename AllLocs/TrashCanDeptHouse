@@ -1,12 +1,47 @@
-public class TrashCan {
-    int Owner;
-    int ShopName;
-    int Coin;
-    int Wares;
-    int Prices;
+using UnityEngine;
+using UnityEgine.UI;
 
-    void Shop {
-        // shop items
+public class TrashCan {
+    int Price;
+    int Bed;
+    int Couch;
+    int TV;
+    int Coin;
+
+    public Text PriceText;
+
+    public void EnterStore () {
+        
+    }
+    public void Store () {
+        Bed = Price + 20;
+        Couch = Price + 10;
+        TV = Price + 35;
+    }
+
+    void Greetings () {
+        Debug.log("Hey there Thumbelina! Need something?")
+    }
+
+    void Sold () {
+        if (Coin <= Prices || Coin <= 0)
+            NotEnoughCoin()
+    } else {
+        AddToInventory()
+    }
+
+    void Bought () {
+        if (Coin = Price || Coin < Price)
+            AddToInventory()
+    }
+
+    void AddToInventory () {
+        // script assign add to inventory
+    }
+
+    public void NotEnoughCoin()
+    {
+        Debug.log("You don't have enough coin for this!");
     }
 
 }
