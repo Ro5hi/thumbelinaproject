@@ -1,0 +1,17 @@
+public class Characters {
+    int TrashCan;
+    int Chinatown;
+    int Landfill;
+    int AbandRestaurant;
+    int Garden;
+    int Beach;
+
+    void Enter () {
+        
+    }
+
+    void Exit (){
+
+    }
+}
+
