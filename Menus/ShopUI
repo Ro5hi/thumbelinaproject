@@ -1,0 +1,25 @@
+public class ShopUI {
+    int Items;
+    int Furniture;
+    int Prices;
+
+    void EnterShop () {
+        // enter shop
+    }
+
+    void Buy () {
+        // Thumbelina buys
+    }
+
+    void Sell () {
+        // Thumbelina sells
+    }
+
+    void Update () {
+        // Update Shop UI 
+    }
+
+    void LeaveShop () {
+        // exit location and UI
+    }
+}

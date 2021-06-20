@@ -5,19 +5,19 @@ public class Menu {
     int Exit;
 
     void Start () {
-        
+        // start game
     }
 
     void Gallery () {
-
+        // view gallery 
     }
 
     void Settings () {
-
+        // change game settings
     }
 
     void Exit () {
-
+        // exit game
     }
 }
 

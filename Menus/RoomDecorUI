@@ -1,0 +1,21 @@
+public class RoomDecorUI {
+    int Room;
+    int Furniture;
+    int Placement;
+
+    void Room () {
+        // room where Thumbelina decorates
+    }
+
+    void Furniture () {
+        // available furniture inside inventory
+    }
+
+    void Placement () {
+        // event placement of furniture
+    }
+
+    void Removed () {
+        // event removed furniture
+    } 
+}
