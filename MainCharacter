@@ -1,0 +1,57 @@
+public class Thumbelina {
+    int Day;
+    int Money;
+    int Furniture;
+    int Points;
+    int Items;
+
+    void Begin () {
+        Day = 1;
+        Money = 0;
+        Points = 0;
+        Furniture = 0;
+        Items = 0;
+    }
+
+    void Update () {
+
+    }
+
+    void Save () {
+
+    }
+
+    void Interact () {
+
+    }
+
+    void Style () {
+
+    }
+
+    void ClickBuy () {
+
+    }
+
+    void ClickSell () {
+
+    }
+
+    void ClickFurniure () {
+
+    }
+
+    void DragFurniture () {
+
+    }
+
+    void PlaceFurniture () {
+
+    }
+
+    void RemoveFurniture () {
+
+    }
+
+}
+
