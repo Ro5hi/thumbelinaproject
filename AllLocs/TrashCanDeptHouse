@@ -1,0 +1,12 @@
+public class TrashCan {
+    int Owner;
+    int ShopName;
+    int Coin;
+    int Wares;
+    int Prices;
+
+    void Shop {
+        // shop items
+    }
+
+}
