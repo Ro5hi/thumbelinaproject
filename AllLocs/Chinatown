@@ -1,0 +1,8 @@
+public class Chinatown {
+    int Interaction;
+
+    void Event {
+        //
+    }
+
+}

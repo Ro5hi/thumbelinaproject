@@ -14,27 +14,37 @@ public class Thumbelina {
     }
 
     void Update () {
-
+        // earn currency upon finishing missions
+        // earn points upon placing furniture
     }
 
-    void Save () {
-
+    void AutoSave () {
+        // save upon location
+        // save when done decorating a level
     }
 
     void Interact () {
-
+        // chat npcs
     }
 
-    void Style () {
+    void SitDown () {
+        // sit on furniture
+    }
 
+    void LayDown () {
+        // lay on bed
+    }
+
+    void TVOn () {
+        // turn on TV
     }
 
     void ClickBuy () {
-
+        // buy from shop, less currency
     }
 
     void ClickSell () {
-
+        // sell to shop, earn currency
     }
 
     void ClickFurniure () {

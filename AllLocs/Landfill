@@ -1,0 +1,8 @@
+public class Landfill {
+    int Interaction;
+
+    void Event {
+        // 
+    }
+
+}
