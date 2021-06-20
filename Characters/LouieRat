@@ -1,0 +1,12 @@
+public class LouieRat {
+    int Name;
+    int Chat;
+    
+    void Interaction () {
+        // first event with the runaway cat
+    }
+
+    void Messages () {
+        // run script
+    }
+}
