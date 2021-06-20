@@ -1,21 +1,39 @@
+using UnityEngine;
+using UnityEgine.UI;
+
 public class Thumbelina {
     int Day;
-    int Money;
-    int Furniture;
+    int Coin;
     int Points;
+    int Furniture;
     int Items;
 
-    void Begin () {
+    public Text DayText;
+    public Text CoinText;
+    public Text PointsText;
+
+    void NewGame () {
         Day = 1;
-        Money = 0;
+        Coin = 0;
         Points = 0;
         Furniture = 0;
         Items = 0;
+        NextDay();
     }
 
-    void Update () {
-        // earn currency upon finishing missions
-        // earn points upon placing furniture
+    void NextDay () {
+        Day = Day + 1;
+        DayText.text = "Day: " + Day;
+    }
+
+    void EarnCoin () {
+        Coin = Coin + 1;
+        CoinText.text = "Coin: " + Coin;
+    }
+
+    void EarnPoints () {
+        Points = Points + 1;
+        PointsText.text = "Points: " + Points;
     }
 
     void AutoSave () {
