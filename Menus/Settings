@@ -1,3 +1,17 @@
 public class SettingsUI () {
-    //
+    int Music;
+    int Sound;
+    int ScreenSize;
+    
+    void MusicVolume () {
+        // adjust dialer
+    }
+
+    void SoundVolume () {
+        // adjust dialer
+    }
+
+    void Screen () {
+        // resolution choices
+    }
 }
