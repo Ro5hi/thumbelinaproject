@@ -1,0 +1,10 @@
+using UnityEgine;
+
+public class InventoryUI : MonoBehaviour {
+
+    private Inventory inventory;
+
+    public void SetInventor(Inventory inventory) {
+        this.inventory = inventory;
+    }
+}

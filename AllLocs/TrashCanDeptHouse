@@ -36,6 +36,7 @@ public class TrashCan {
     }
 
     void AddToInventory () {
+        // lessen coins from UI
         // script assign add to inventory
     }
 

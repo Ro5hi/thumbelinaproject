@@ -5,8 +5,10 @@ public class Thumbelina {
     int Day;
     int Coin;
     int Points;
-    int Furniture;
-    int Items;
+    
+    [SerializeField] private InventoryUI Inventoryui;
+
+    private Inventory inventory;
 
     public Text DayText;
     public Text CoinText;
@@ -16,8 +18,10 @@ public class Thumbelina {
         Day = 1;
         Coin = 0;
         Points = 0;
-        Furniture = 0;
-        Items = 0;
+
+        inventory = new Inventory();
+        Inventoryui.SetInventory(inventory)
+
         NextDay();
     }
 
