@@ -8,17 +8,17 @@ public class GameMenu : MonoBehaviour
     // Start is called before the first frame update
     public void StartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        // set variable for opening scene
     }
 
     public void OpenGallery()
     {
-        SceneManager.LoadScene("GalleryView");
+        SceneManager.LoadScene("Gallery");
     }
 
     public void OpenOptions()
     {
-        SceneManager.LoadScene("OptionsMenu");
+        SceneManager.LoadScene("Options");
     }
 
     // Exit Game
