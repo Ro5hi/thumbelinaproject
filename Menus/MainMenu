@@ -1,23 +1,29 @@
-public class Menu {
-    int Start;
-    int Gallery;
-    int Settings;
-    int Exit;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
-    void Start () {
-        // start game
+public class GameMenu : MonoBehaviour
+{
+    // Start is called before the first frame update
+    public void StartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    void Gallery () {
-        // view gallery 
+    public void OpenGallery()
+    {
+        SceneManager.LoadScene("GalleryView");
     }
 
-    void Settings () {
-        // change game settings
+    public void OpenOptions()
+    {
+        SceneManager.LoadScene("OptionsMenu");
     }
 
-    void Exit () {
-        // exit game
+    // Exit Game
+    public void ExitGame()
+    {
+        SceneManager.LoadScene("Exit");
     }
 }
-
