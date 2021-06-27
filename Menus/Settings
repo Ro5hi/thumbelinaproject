@@ -20,6 +20,12 @@ public class Settings : MonoBehaviour
         }
     }
 
+    public void AdjustVolume()
+    {
+        AudioListener.volume = volumeSlider.value;
+        Save();
+    }
+
     private void Load() 
     {
         volumeSlider.value = PlayerPrefs.GetFloat("soundVolume");
