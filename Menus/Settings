@@ -27,6 +27,7 @@ public class Settings : MonoBehaviour
 
     private void Save()
     {
-
+        PlayerPrefs.SetFloat("soundVolume", volumeSlider.value);
     }
+    
 }
