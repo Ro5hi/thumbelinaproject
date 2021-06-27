@@ -1,17 +1,14 @@
-public class SettingsUI () {
-    int Music;
-    int Sound;
-    int ScreenSize;
-    
-    void MusicVolume () {
-        // adjust dialer
-    }
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI; 
 
-    void SoundVolume () {
-        // adjust dialer
-    }
+public class Settings : MonoBehaviour
+{
+    [SerializeField] Slider volumeSlider;
 
-    void Screen () {
-        // resolution choices
+    void Start()
+    {
     }
+}
 }
