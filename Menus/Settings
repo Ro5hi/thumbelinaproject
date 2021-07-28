@@ -32,5 +32,9 @@ public class Settings : MonoBehaviour
       resolutionSelection.AddOptions();
   }
 
+  public void setFullScreen (bool isFullScreen){
+      Screen.fullScreen = isFullScreen;
+  }
+
 
 }
