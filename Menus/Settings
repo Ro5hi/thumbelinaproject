@@ -5,5 +5,32 @@ using UnityEngine.UI;
 
 public class Settings : MonoBehaviour
 {
-  
+  public AudioMixer audioMixer;
+
+  public Selection resolutionSelection;
+
+  Resolution[] resolutions;
+
+  void Start ()
+  {
+      resolutions = Screen.resolutions;
+      resolutionSelection.ClearOptions();
+
+      List<string> options = newList<string>();
+
+      for (int i =0; i < resolutions.Length; i++)
+      {
+          string option = resolutions[i].width + "x" + resolutions[i].height;
+          optionns.Add(option);
+
+          if (resolutions[i].width == Screen.currentResolution.width &&
+                resolutions[i].height = Screen.currentResolution.height)
+          {
+              currentResolutionIndex = i;
+          }
+      }
+      resolutionSelection.AddOptions();
+  }
+
+
 }
