@@ -11,6 +11,7 @@ public class Settings : MonoBehaviour
 
   Resolution[] resolutions;
 
+  // res selecction  
   void Start ()
   {
       resolutions = Screen.resolutions;
@@ -30,10 +31,19 @@ public class Settings : MonoBehaviour
           }
       }
       resolutionSelection.AddOptions();
+      resolutionSelection.vvalue = currentResolutionIndex;
+      resolutionSelection.RefreshShownValue();
   }
 
+  // fullscreen toggle  
   public void setFullScreen (bool isFullScreen){
       Screen.fullScreen = isFullScreen;
+  }
+
+  public void SetResolution (int resolutionIndex);
+  {
+      Resolution resolution = resolutions[resolutionIndex];
+      Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
   }
 
 
