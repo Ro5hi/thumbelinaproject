@@ -5,25 +5,5 @@ using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public void StartGame()
-    {
-        // set variable for opening scene
-    }
 
-    public void OpenGallery()
-    {
-        SceneManager.LoadScene("Gallery");
-    }
-
-    public void OpenOptions()
-    {
-        SceneManager.LoadScene("Options");
-    }
-
-    // Exit Game
-    public void ExitGame()
-    {
-        SceneManager.LoadScene("Exit");
-    }
 }
